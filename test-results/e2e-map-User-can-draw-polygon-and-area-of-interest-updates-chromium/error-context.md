@@ -1,0 +1,50 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e3]:
+  - generic [ref=e5]:
+    - button "nav" [ref=e6] [cursor=pointer]:
+      - img "nav" [ref=e7]
+    - button "home" [ref=e8] [cursor=pointer]:
+      - img "home" [ref=e9]
+    - button "grid" [ref=e10] [cursor=pointer]:
+      - img "grid" [ref=e11]
+  - complementary [ref=e12]:
+    - generic [ref=e13]:
+      - button "nav" [ref=e14] [cursor=pointer]:
+        - img "nav" [ref=e15]
+      - button "home" [ref=e16] [cursor=pointer]:
+        - img "home" [ref=e17]
+      - button "grid" [ref=e18] [cursor=pointer]:
+        - img "grid" [ref=e19]
+    - generic [ref=e20]:
+      - generic [ref=e21]:
+        - button "◀" [ref=e22] [cursor=pointer]
+        - heading "Define Area of Interest" [level=2] [ref=e23]
+      - paragraph [ref=e24]: Define the area(s) where you will apply your object count & detection model
+      - generic [ref=e25]: "Options:"
+      - generic [ref=e26]:
+        - generic [ref=e27]:
+          - generic [ref=e28]: 🔍
+          - textbox "Search for a city, town... or draw area on map" [ref=e29]
+        - button "📁 Uploading a shape file" [ref=e30] [cursor=pointer]
+        - button "draw" [ref=e31] [cursor=pointer]: ✏️ Draw Area
+        - button "Apply outline as base image" [ref=e32] [cursor=pointer]
+        - button "Confirm Area of Interest" [disabled] [ref=e34]
+        - generic [ref=e35]:
+          - heading "Saved AOIs" [level=4] [ref=e36]
+          - generic [ref=e38]: No AOIs yet
+  - generic [ref=e39]:
+    - generic [ref=e40]: "Drawing: OFF"
+    - generic [ref=e42]:
+      - generic:
+        - generic [ref=e43]:
+          - button "Zoom in" [ref=e44] [cursor=pointer]: +
+          - button "Zoom out" [ref=e45] [cursor=pointer]: −
+        - generic [ref=e46]:
+          - link "Leaflet" [ref=e47] [cursor=pointer]:
+            - /url: https://leafletjs.com
+            - img [ref=e48]
+            - text: Leaflet
+          - text: "| © OpenStreetMap, © Geoapify"
+```

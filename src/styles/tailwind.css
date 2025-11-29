@@ -1,0 +1,32 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.custom-map-icon {
+  width: 55px;      
+  height: 55px;
+  padding: 10px;
+  background-color: rgba(0,0,0,0.4);
+  border-radius: 12px;
+  cursor: pointer;
+}
+.icon-container {
+  position: absolute;
+  left: 10px;
+  top: 120px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  z-index: 9999;
+}
+.define-area-block {
+  position: relative;
+}
+
+
+html, body, #root { height: 100%; }
+
+
+
+
+
+.leaflet-container { height: 100%; width: 100%; }
